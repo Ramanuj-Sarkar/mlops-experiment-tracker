@@ -4,6 +4,8 @@ A lightweight, **zero-mandatory-dependency** experiment tracker for Python ML pr
 
 No server to spin up. No config files. Just Python.
 
+<!--
+
 ```python
 from tracker import Experiment
 
@@ -15,7 +17,6 @@ with Experiment("logreg-baseline", tags={"dataset": "iris"}) as exp:
 
 ---
 
-<!--
 ## Why this instead of MLflow?
 
 | Feature | mlops-experiment-tracker | MLflow |
