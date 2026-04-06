@@ -15,6 +15,7 @@ with Experiment("logreg-baseline", tags={"dataset": "iris"}) as exp:
 
 ---
 
+<!--
 ## Why this instead of MLflow?
 
 | Feature | mlops-experiment-tracker | MLflow |
@@ -156,6 +157,8 @@ python -m pytest tests/ -v
 ```
 
 ---
+
+-->
 
 ## License
 
