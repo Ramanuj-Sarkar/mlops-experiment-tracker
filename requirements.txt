@@ -3,6 +3,7 @@
 
 # Optional — needed for compare_runs() and generate_html_report()
 pandas>=1.3.0
+jinja2
 
 # Optional — for the sklearn example
 scikit-learn>=1.0.0
